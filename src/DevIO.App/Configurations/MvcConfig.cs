@@ -24,7 +24,7 @@ namespace DevIO.App.Configurations
 
                 o.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
 
-            }).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            });
 
             return services;
         }
